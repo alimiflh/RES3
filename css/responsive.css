@@ -1,4 +1,4 @@
-@media screen and (max-width: 300px){
+@media screen and (max-device-width: 300px){
 	.img{
 		display: none;
 	}
@@ -11,9 +11,8 @@ and (max-device-width : 480px){
  } 
 }
 
-@media
-(-webkit-min-device-pixel-ratio: 1),
-(min-resolution: 190dpi) { 
+@media only screen
+and (min-device-width : 320px) { 
  .video{
  	display: none;
  	}
